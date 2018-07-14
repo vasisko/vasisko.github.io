@@ -1,0 +1,95 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #7accc8;
+}
+
+.jumbotron {
+    background-color: white;
+    background-image: url("../imgs/symphony.png");
+    padding:1.4rem;
+    margin-bottom: 0px;
+    color: black;
+    border-bottom: solid black 1px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Della Respira', serif;
+    text-shadow: 2px 2px grey;
+}
+h2 {
+    color:white;
+    
+    font-size: 2.5rem;
+    font-family: 'Della Respira', serif;
+
+    }
+
+.backhome {
+    position: relative;
+    top: -40px;
+    text-align: left;
+}
+
+h3 {
+    color: #999;
+    font-family: 'Della Respira', serif;
+    
+    
+}
+h4 {
+    color: white;
+    font-size: 1.2rem;
+}
+.whitelink {
+    color: white;
+    text-decoration: none;
+}
+.shifted {
+    padding-left: 25px;
+}
+.shiftedr {
+    padding-right: 25px;
+    text-align: right;
+}
+.about {
+    padding-top: 20px;
+}
+.portfolio {
+    margin: auto;
+    
+}
+a.aboutLinks { 
+    color: #fd795c; 
+    text-shadow: 1px 1px gray;
+}
+.card-text { font-size: .8rem;}
+.mailLink { color: black;} 
+.card { 
+    background-color:#b5e3e1;
+    width: 20rem;
+    justify-content: center;
+    }
+
+img.portfolio { 
+    width: 320px;
+    height: 256px;
+}
+
+.navback {
+    color: #fd795c;
+    text-shadow: 1px 1px gray;
+    text-align: left;
+}
+.projectcard { width: 20rem;}
+
+.card-text a {color: #000;
+font-weight: 200;}
+
+@media only screen and (max-width: 767px) {
+    .backhome {
+        position: relative;
+        top: 0px;
+        text-align: center;
+    } 
+ }
